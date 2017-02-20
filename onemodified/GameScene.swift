@@ -13,10 +13,11 @@ struct PhysicsCategory {
     static let Ghost : UInt32 = 0x1 << 1
     static let Ground : UInt32 = 0x1 << 2
     static let Wall : UInt32 = 0x1 << 3
+    static let Score : UInt32 = 0x1 << 4
 
 }
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var Ground = SKSpriteNode()
     var Ghost = SKSpriteNode()
@@ -26,7 +27,11 @@ class GameScene: SKScene {
     
     var gameStarted = Bool()
     
+    var score = Int()
+    
     override func sceneDidLoad() {
+        
+        self.physicsWorld.contactDelegate = self
         
         Ground = SKSpriteNode(imageNamed: "Ground")
         Ground.setScale(0.81)
@@ -50,7 +55,7 @@ class GameScene: SKScene {
         Ghost.physicsBody = SKPhysicsBody(circleOfRadius: Ghost.frame.height / 2)
         Ghost.physicsBody?.categoryBitMask = PhysicsCategory.Ghost
         Ghost.physicsBody?.collisionBitMask = PhysicsCategory.Ground | PhysicsCategory.Wall
-        Ghost.physicsBody?.contactTestBitMask = PhysicsCategory.Ground | PhysicsCategory.Wall
+        Ghost.physicsBody?.contactTestBitMask = PhysicsCategory.Ground | PhysicsCategory.Wall | PhysicsCategory.Score
         Ghost.physicsBody?.affectedByGravity = false
         Ghost.physicsBody?.isDynamic = true
         
@@ -58,13 +63,33 @@ class GameScene: SKScene {
         
         self.addChild(Ghost)
         
-//        gameStarted = false
-        
-        
         
     }
     
+    func didBegin(_ contact: SKPhysicsContact) {
+        let firstBody = contact.bodyA
+        let secondBody = contact.bodyB
+        
+        if firstBody.categoryBitMask == PhysicsCategory.Score && secondBody.categoryBitMask == PhysicsCategory.Ghost || firstBody.categoryBitMask == PhysicsCategory.Ghost && secondBody.categoryBitMask == PhysicsCategory.Score{
+            
+                score = score + 1
+                print(score)
+            
+        }
+    }
+    
     func createWalls(){
+        
+        let scoreNode = SKSpriteNode()
+        
+        scoreNode.size = CGSize(width:1, height:200)
+        scoreNode.position = CGPoint(x: self.frame.width / 2, y:self.frame.height / 2)
+        scoreNode.physicsBody = SKPhysicsBody(rectangleOf: scoreNode.size)
+        scoreNode.physicsBody?.affectedByGravity = false
+        scoreNode.physicsBody?.isDynamic = false
+        scoreNode.physicsBody?.categoryBitMask = PhysicsCategory.Score
+        scoreNode.physicsBody?.collisionBitMask = 0
+        scoreNode.physicsBody?.contactTestBitMask = PhysicsCategory.Ghost
         
         wallPair = SKNode()
         
@@ -100,6 +125,7 @@ class GameScene: SKScene {
         
         var randomPosition = CGFloat.random(min: -200, max: 200)
         wallPair.position.y = wallPair.position.y + randomPosition
+        wallPair.addChild(scoreNode)
         
         wallPair.run(moveAndRemove)
         
