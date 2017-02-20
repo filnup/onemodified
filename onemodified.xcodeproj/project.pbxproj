@@ -15,6 +15,10 @@
 		7A87A0CB1E5B5409009AC51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A87A0CA1E5B5409009AC51D /* Assets.xcassets */; };
 		7A87A0CE1E5B5409009AC51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A87A0CC1E5B5409009AC51D /* LaunchScreen.storyboard */; };
 		7A87A0E21E5B5DDE009AC51D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7A87A0E11E5B5DDE009AC51D /* GameScene.sks */; };
+		EA458BFA1E5B7A3D0091CACD /* mainMenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA458BF71E5B7A3D0091CACD /* mainMenu.mp3 */; };
+		EA458BFB1E5B7A3D0091CACD /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA458BF81E5B7A3D0091CACD /* MainMenu.swift */; };
+		EA458BFC1E5B7A3D0091CACD /* Volcano.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA458BF91E5B7A3D0091CACD /* Volcano.mp4 */; };
+		EA458BFE1E5B7A990091CACD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EA458BFD1E5B7A990091CACD /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		7A87A0CD1E5B5409009AC51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A87A0CF1E5B5409009AC51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A87A0E11E5B5DDE009AC51D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EA458BF71E5B7A3D0091CACD /* mainMenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainMenu.mp3; sourceTree = "<group>"; };
+		EA458BF81E5B7A3D0091CACD /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		EA458BF91E5B7A3D0091CACD /* Volcano.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Volcano.mp4; sourceTree = "<group>"; };
+		EA458BFD1E5B7A990091CACD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,9 @@
 		7A87A0BC1E5B5409009AC51D /* onemodified */ = {
 			isa = PBXGroup;
 			children = (
+				EA458BF71E5B7A3D0091CACD /* mainMenu.mp3 */,
+				EA458BF81E5B7A3D0091CACD /* MainMenu.swift */,
+				EA458BF91E5B7A3D0091CACD /* Volcano.mp4 */,
 				7A87A0BD1E5B5409009AC51D /* AppDelegate.swift */,
 				7A87A0C11E5B5409009AC51D /* Actions.sks */,
 				7A87A0E11E5B5DDE009AC51D /* GameScene.sks */,
@@ -69,6 +80,7 @@
 				7A87A0CA1E5B5409009AC51D /* Assets.xcassets */,
 				7A87A0CC1E5B5409009AC51D /* LaunchScreen.storyboard */,
 				7A87A0CF1E5B5409009AC51D /* Info.plist */,
+				EA458BFD1E5B7A990091CACD /* .gitignore */,
 			);
 			path = onemodified;
 			sourceTree = "<group>";
@@ -133,11 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA458BFE1E5B7A990091CACD /* .gitignore in Resources */,
 				7A87A0C91E5B5409009AC51D /* Main.storyboard in Resources */,
 				7A87A0E21E5B5DDE009AC51D /* GameScene.sks in Resources */,
+				EA458BFA1E5B7A3D0091CACD /* mainMenu.mp3 in Resources */,
 				7A87A0CB1E5B5409009AC51D /* Assets.xcassets in Resources */,
 				7A87A0CE1E5B5409009AC51D /* LaunchScreen.storyboard in Resources */,
 				7A87A0C21E5B5409009AC51D /* Actions.sks in Resources */,
+				EA458BFC1E5B7A3D0091CACD /* Volcano.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +166,7 @@
 				7A87A0C41E5B5409009AC51D /* GameScene.swift in Sources */,
 				7A87A0C61E5B5409009AC51D /* GameViewController.swift in Sources */,
 				7A87A0BE1E5B5409009AC51D /* AppDelegate.swift in Sources */,
+				EA458BFB1E5B7A3D0091CACD /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +332,7 @@
 				7A87A0D41E5B5409009AC51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
