@@ -20,6 +20,8 @@ class GameScene: SKScene {
     
     var Ground = SKSpriteNode()
     var Ghost = SKSpriteNode()
+    let wallPair = SKNode()
+
     
     override func sceneDidLoad() {
         
@@ -53,12 +55,22 @@ class GameScene: SKScene {
         
         self.addChild(Ghost)
         
-        createWalls()
+        let spawn = SKAction.run {
+            
+            () in
+            self.createWalls()
+        }
+        
+        let delay = SKAction.wait(forDuration: 2.0)
+        let spawnDelay = SKAction.sequence([spawn, delay])
+        let spawnDelayForever = SKAction.repeatForever(spawnDelay)
+        self.run(spawnDelayForever)
+        
+        let distance = CGFloat(self.frame.width + 20)
         
     }
     
     func createWalls(){
-        let wallPair = SKNode()
         
         let topWall = SKSpriteNode(imageNamed:"Wall")
         let btmWall = SKSpriteNode(imageNamed:"Wall")
