@@ -9,5 +9,7 @@ target 'onemodified' do
 
  pod 'SwiftyButton'
 
+ 
+ pod "EXTView"
  pod 'BubbleTransition', '~> 2.0.0'
 end

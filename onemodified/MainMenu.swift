@@ -16,7 +16,7 @@ class MainMenu: UIViewController, UIViewControllerTransitioningDelegate {
     
     @IBOutlet var startGame: PressableButton!
     let transition = BubbleTransition()
-    
+    @IBOutlet var lavaLabel: UILabel!
     
     var player: AVPlayer?
     var audioPlayer = AVAudioPlayer()
@@ -26,10 +26,19 @@ class MainMenu: UIViewController, UIViewControllerTransitioningDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+
+        
+        //This deals with the button preferences
         startGame.colors = .init(button: .red, shadow: .black)
         startGame.shadowHeight = 10
         startGame.cornerRadius = 8
         startGame.depth = 0.5
+        
+        
+        
+        lavaLabel.text = "LAVA"
+        lavaLabel.font = UIFont(name: "BaileysCar-Regular", size: 120)
+        
         
         do {
             

@@ -85,9 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/BubbleTransition/BubbleTransition.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EXTView/EXTView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyButton/SwiftyButton.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/BubbleTransition/BubbleTransition.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/EXTView/EXTView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyButton/SwiftyButton.framework"
 fi
