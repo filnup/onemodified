@@ -1,0 +1,6 @@
+framework module Pods_onemodified {
+  umbrella header "Pods-onemodified-umbrella.h"
+
+  export *
+  module * { export * }
+}
