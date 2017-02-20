@@ -9,8 +9,14 @@
 import UIKit
 import AVKit
 import AVFoundation
+import SwiftyButton
+import BubbleTransition
 
-class MainMenu: UIViewController {
+class MainMenu: UIViewController, UIViewControllerTransitioningDelegate {
+    
+    @IBOutlet var startGame: PressableButton!
+    let transition = BubbleTransition()
+    
     
     var player: AVPlayer?
     var audioPlayer = AVAudioPlayer()
@@ -19,8 +25,11 @@ class MainMenu: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+    
+        startGame.colors = .init(button: .red, shadow: .black)
+        startGame.shadowHeight = 10
+        startGame.cornerRadius = 8
+        startGame.depth = 0.5
         
         do {
             
@@ -62,20 +71,32 @@ class MainMenu: UIViewController {
         player?.play()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+   
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let controller = segue.destination
+        controller.transitioningDelegate = self
+        controller.modalPresentationStyle = .custom
     }
-    */
-
+    
+    // MARK: UIViewControllerTransitioningDelegate
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .present
+        transition.startingPoint = startGame.center
+        transition.bubbleColor = .black
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .dismiss
+        transition.startingPoint = startGame.center
+        transition.bubbleColor = startGame.backgroundColor!
+        return transition
+    }
+    
+    
+    
 }
