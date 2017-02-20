@@ -51,14 +51,14 @@ class GameScene: SKScene {
         Ghost.physicsBody?.categoryBitMask = PhysicsCategory.Ghost
         Ghost.physicsBody?.collisionBitMask = PhysicsCategory.Ground | PhysicsCategory.Wall
         Ghost.physicsBody?.contactTestBitMask = PhysicsCategory.Ground | PhysicsCategory.Wall
-        Ghost.physicsBody?.affectedByGravity = true
+        Ghost.physicsBody?.affectedByGravity = false
         Ghost.physicsBody?.isDynamic = true
         
         Ghost.zPosition = 2
         
         self.addChild(Ghost)
         
-        gameStarted = false
+//        gameStarted = false
         
         
         
@@ -98,6 +98,11 @@ class GameScene: SKScene {
         
         wallPair.zPosition = 1
         
+        var randomPosition = CGFloat.random(min: -200, max: 200)
+        wallPair.position.y = wallPair.position.y + randomPosition
+        
+        wallPair.run(moveAndRemove)
+        
         self.addChild(wallPair)
 
 
@@ -108,12 +113,15 @@ class GameScene: SKScene {
         
         if gameStarted == false {
             
+            gameStarted = true
+            Ghost.physicsBody?.affectedByGravity = true
+            
             let spawn = SKAction.run ({
                 
                 self.createWalls()
             })
             
-            let delay = SKAction.wait(forDuration: 1)
+            let delay = SKAction.wait(forDuration: 2)
             let spawnDelay = SKAction.sequence([spawn, delay])
             let spawnDelayForever = SKAction.repeatForever(spawnDelay)
             self.run(spawnDelayForever)
