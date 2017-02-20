@@ -1,15 +1,18 @@
 PODS:
   - BubbleTransition (2.0.1)
+  - EXTView (0.1.0)
   - SwiftyButton (0.6.0)
 
 DEPENDENCIES:
   - BubbleTransition (~> 2.0.0)
+  - EXTView
   - SwiftyButton
 
 SPEC CHECKSUMS:
   BubbleTransition: bb24ed389ab672eecf3c87170d0a73f959a8e696
+  EXTView: db5ded8520d2023cadb1b9225fb1ad9406064f04
   SwiftyButton: 4c9b61c499f172971a1b8c2eebbbdc20a26d8a08
 
-PODFILE CHECKSUM: 51b3a57ad52aa76d7a18d8c2174d1d69b0493bb1
+PODFILE CHECKSUM: fe1d6912d03a76db6a2400d38ebf5b79cc5bddc4
 
 COCOAPODS: 1.1.1

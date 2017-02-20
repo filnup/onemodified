@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BE927F45DB8DD582B06B0B24430848FB'
-               BlueprintName = 'SwiftyButton'
+               BlueprintIdentifier = '6F5C43037FFAA0AA4A3A95952EA312EF'
+               BlueprintName = 'EXTView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftyButton.framework'>
+               BuildableName = 'EXTView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

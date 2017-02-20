@@ -22,12 +22,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9S-CS-aYO" customClass="PressableButton" customModule="SwiftyButton">
-                                <rect key="frame" x="74" y="183" width="227" height="109"/>
+                                <rect key="frame" x="74" y="270" width="227" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="109" id="Hff-yp-15x"/>
                                     <constraint firstAttribute="width" constant="227" id="oa4-yF-0Pn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="KhmerSangamMN" family="Khmer Sangam MN" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="24"/>
                                 <state key="normal" title="START GAME">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,14 +47,39 @@
                                     <segue destination="BV1-FR-VrT" kind="modal" id="dln-Wd-w5j"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0b-tT-zDm">
+                                <rect key="frame" x="61" y="159" width="252" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="BX3-ao-tDS"/>
+                                    <constraint firstAttribute="width" constant="252" id="nyG-3A-kSM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GROUND IS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMf-W4-nx5">
+                                <rect key="frame" x="51" y="70" width="273" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="VlV-ZD-5oh"/>
+                                    <constraint firstAttribute="height" constant="68" id="pmW-fx-Wq4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="A9S-CS-aYO" firstAttribute="top" secondItem="g8v-RN-DfZ" secondAttribute="bottom" constant="163" id="VKv-rl-6Z1"/>
+                            <constraint firstItem="xMf-W4-nx5" firstAttribute="centerX" secondItem="xMc-Uy-RxM" secondAttribute="centerX" id="5Pv-DR-LML"/>
+                            <constraint firstItem="xMf-W4-nx5" firstAttribute="top" secondItem="xMc-Uy-RxM" secondAttribute="top" constant="70" id="Gm6-k4-uXn"/>
+                            <constraint firstItem="e0b-tT-zDm" firstAttribute="centerX" secondItem="xMf-W4-nx5" secondAttribute="centerX" id="RFz-HY-zgY"/>
+                            <constraint firstItem="A9S-CS-aYO" firstAttribute="top" secondItem="g8v-RN-DfZ" secondAttribute="bottom" constant="250" id="VKv-rl-6Z1"/>
+                            <constraint firstItem="e0b-tT-zDm" firstAttribute="top" secondItem="xMf-W4-nx5" secondAttribute="bottom" constant="21" id="mC1-QQ-0h6"/>
                             <constraint firstItem="A9S-CS-aYO" firstAttribute="centerX" secondItem="xMc-Uy-RxM" secondAttribute="centerX" id="vo7-1L-lKe"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lavaLabel" destination="e0b-tT-zDm" id="Shs-cP-REo"/>
                         <outlet property="startGame" destination="A9S-CS-aYO" id="k5z-Wj-H13"/>
                     </connections>
                 </viewController>

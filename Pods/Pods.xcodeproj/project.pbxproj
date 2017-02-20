@@ -7,82 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048B6AD6154DCD9425D0628D4BB332D2 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F52062C54F423D30641CC95EC2F6E /* BubbleTransition.swift */; };
+		048B6AD6154DCD9425D0628D4BB332D2 /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C339EC86113825DA345DB106B1C362 /* BubbleTransition.swift */; };
 		07FF1EB3B1E1CE212855AF965B6580E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		0A85CC10959CA5F0934EF0A421B4F18F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		0BC145AA6184EF280FBAF3D29D00F73E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546573A770D945361171A25BEC75ED5 /* Utils.swift */; };
-		0E8758AFED7B3DE300ACCA44F2C70789 /* Pods-onemodified-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F7250950AD532C1EDE7B8CD65061A /* Pods-onemodified-dummy.m */; };
-		15B92BD6A32F0D58A1079138ED72C4F1 /* BubbleTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40AAC215A3CF698E51FE5778A3F3BC0 /* BubbleTransition-dummy.m */; };
-		1C5098404CD573F90A0494606DA22CEE /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088EDC7CBF409B905299BA0C3CA6FF39 /* CustomPressableButton.swift */; };
-		28B30EEBC04D94D82221192738294892 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 113EADC8836B7B0D556E99AC4DB398F9 /* SwiftyButton-dummy.m */; };
-		3F159A8B3F6F29DAC1F4DD3BFC4892BA /* BubbleTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED06AD6B4C60408133955DB8E24408F9 /* BubbleTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FC24C9CA5FE799C7D0AB51E219EFFFF /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B315BC99EA578CABFB8A234ED8224454 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		750B7C83FE8AF21EB58290A5BE8B8DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		77918A4124A472CCFEBF0D4DEA89DD22 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F552F0DB5BF196ECD390A06FE1875 /* PressableButton.swift */; };
-		87CBA6AA2516BBB01A060BD87C21EA58 /* Pods-onemodified-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0B6713A15A20573F64406C392BD43B /* Pods-onemodified-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A49903CC0175F18A1FE098EEE549E827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		B0F14493094AE8727AE1F0B90E9A6D8D /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A58406929070279CDE86C89D3A0226 /* FlatButton.swift */; };
+		0D53AEE153380B0E93625156B53F67F8 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA31BBFA7EE5FD3876539D89A181501 /* CustomPressableButton.swift */; };
+		135A4BF47036D127F035C2E3A149C812 /* Pods-onemodified-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916F7250950AD532C1EDE7B8CD65061A /* Pods-onemodified-dummy.m */; };
+		15B92BD6A32F0D58A1079138ED72C4F1 /* BubbleTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A045715134E5A8350C431291B633B5E7 /* BubbleTransition-dummy.m */; };
+		250F615986104E6F830C3AA8F8822167 /* EXTView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13393D05FE985FD7D2045C1A1C99C32 /* EXTView.m */; };
+		3F159A8B3F6F29DAC1F4DD3BFC4892BA /* BubbleTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4CB9BCE3E90EAAC8F66424489FA60C /* BubbleTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EA7AB1ADF1F75CDA8E87DE03663E6F /* EXTView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A8BA765A1D5DBA669711F6F5788884C /* EXTView.bundle */; };
+		4EA1AC98467482022E2721C4C7C304C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		556C1381FD306C2E7930A3FE109EEF33 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5BDC6B7AE6013B0A1C85D0AA1AAF74 /* FlatButton.swift */; };
+		5D184253C63CC33C202A6EABAB2CE6B9 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB19CD027ACF90A793C85F454543AB /* SwiftyButton-dummy.m */; };
+		6E1475CF5566DF6911198BDE8D904C25 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC95D42DFAFD4F04A74136183E594F /* Utils.swift */; };
+		ABD37FBE857E5AB0248A9D81578A5726 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BAF320DD00F71139A69D84598ED4E3 /* PressableButton.swift */; };
+		AF589FC01C2FD84218ABEF3A85E6B102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B96D1487156CDDA98F62B2040FF7F312 /* EXTView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C691456FC8F3CCFFF9A9F4C14C315EED /* EXTView-dummy.m */; };
+		BA970B52D50446EA037AAA0613D7F596 /* EXTView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DB6DE72AEAB3E8A5FC6EF18CB7828C /* EXTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE65B55CABF0D04C0ADBC8C5D1626EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D49F3AB0D3360D2CFCB7338F28280E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E794AC0E4D86834B811F5B0DCB51E609 /* EXTView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBBF906C8003547F67E25D1C67DD0AA /* EXTView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09F330F49BF4A97A266C7CEC1FE3AB9 /* Pods-onemodified-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0B6713A15A20573F64406C392BD43B /* Pods-onemodified-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9D103741FFFE66FD647EB1B002F460 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F30ADC7FD71BE2BAE0655118223017 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E4BC578D9C9F1DC9DF05B5E1A04A243F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D46A79F6A76EF232C615E908C73DE4E;
-			remoteInfo = SwiftyButton;
-		};
-		F8F9279354B43A93B1B94D9EB78A02E1 /* PBXContainerItemProxy */ = {
+		4A60C0F43EFB8D440CE804C8F28E1778 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 38830187D9E171E7B43047ED06A08ADC;
 			remoteInfo = BubbleTransition;
 		};
+		500F115F0D7CA39353768680955ACE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F5C43037FFAA0AA4A3A95952EA312EF;
+			remoteInfo = EXTView;
+		};
+		60492D65C8FF5FA7892E3A9F5E9B04D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE927F45DB8DD582B06B0B24430848FB;
+			remoteInfo = SwiftyButton;
+		};
+		67BCA5E6D4818433A47068295064A091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5ABCF3C1DAA65AE3297D0A0FB3AEA5;
+			remoteInfo = "EXTView-EXTView";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088EDC7CBF409B905299BA0C3CA6FF39 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
-		113EADC8836B7B0D556E99AC4DB398F9 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
-		1546573A770D945361171A25BEC75ED5 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		07A1D7E51959A0C37CDCC78055FFB70D /* ResourceBundle-EXTView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EXTView-Info.plist"; sourceTree = "<group>"; };
+		1A8BA765A1D5DBA669711F6F5788884C /* EXTView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EXTView.bundle; path = EXTView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0B6713A15A20573F64406C392BD43B /* Pods-onemodified-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-onemodified-umbrella.h"; sourceTree = "<group>"; };
+		20AC95D42DFAFD4F04A74136183E594F /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
 		210905E57D483DA4FDCB9C98B25FEA30 /* Pods-onemodified-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-onemodified-frameworks.sh"; sourceTree = "<group>"; };
-		23BB558737DA1053314C621489DD565A /* BubbleTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BubbleTransition.framework; path = BubbleTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2568D9A29CF6E2FFF6B467B2E8070F10 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
-		28A58406929070279CDE86C89D3A0226 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
-		2CD80F9F1CA191DD18AF4FCCC8703079 /* Pods_onemodified.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_onemodified.framework; path = "Pods-onemodified.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E40F421B4B33C3627CAE9BA6AF7846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3980039CC3058FCD391691ADA3A14467 /* BubbleTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleTransition.xcconfig; sourceTree = "<group>"; };
-		491F552F0DB5BF196ECD390A06FE1875 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		3CBBF906C8003547F67E25D1C67DD0AA /* EXTView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXTView-umbrella.h"; sourceTree = "<group>"; };
+		3FFB19CD027ACF90A793C85F454543AB /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		45EF85A7728A44B2573B84A8A450ADFA /* Pods_onemodified.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_onemodified.framework; path = "Pods-onemodified.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460BC6451FF2CE537402DB6FFB258DFF /* EXTView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EXTView.framework; path = EXTView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F42CD61A7832DA0D5EC265731E946A2 /* Pods-onemodified-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-onemodified-acknowledgements.markdown"; sourceTree = "<group>"; };
 		606F3C892E8082EB8CE5E8CFCD6A768E /* Pods-onemodified-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-onemodified-resources.sh"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A991553C17EE33F704523468AB7C287 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
-		739C980A75990563D14B64469E8E6002 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		73DBC421407EDE78F2C4ADE0C0E272A3 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		77E06F8A8CDFE6E52042D686A872A807 /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		7841B63E8E81ADF4928C0432BEEB7FDC /* BubbleTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BubbleTransition.framework; path = BubbleTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B1CD6C48F7EA274F7660836C1CCE61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEEE0233ABBDF30D6F7C04156DF0E22 /* BubbleTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-prefix.pch"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXTView.xcconfig; sourceTree = "<group>"; };
+		839DF63E5D96495D171325558A6C80C7 /* EXTView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EXTView.modulemap; sourceTree = "<group>"; };
 		916F7250950AD532C1EDE7B8CD65061A /* Pods-onemodified-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-onemodified-dummy.m"; sourceTree = "<group>"; };
-		927F52062C54F423D30641CC95EC2F6E /* BubbleTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = Source/BubbleTransition.swift; sourceTree = "<group>"; };
+		937EFD1FD0468307CB3908CE277DC3B7 /* EXTView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXTView-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97A99625D8CE41AB766EDA7BBD79F039 /* Pods-onemodified-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onemodified-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D44560E82FFFC92B94E56A9F8499775 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B315BC99EA578CABFB8A234ED8224454 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
-		B417EDD9E19762292998578E4B281B17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4EBE5DB095C0D68BA65E7056B4091A2 /* BubbleTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BubbleTransition.modulemap; sourceTree = "<group>"; };
+		9E5BDC6B7AE6013B0A1C85D0AA1AAF74 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		A0340710685075ED2028C43450B5E652 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A045715134E5A8350C431291B633B5E7 /* BubbleTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleTransition-dummy.m"; sourceTree = "<group>"; };
+		A13393D05FE985FD7D2045C1A1C99C32 /* EXTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTView.m; path = Pod/Classes/EXTView.m; sourceTree = "<group>"; };
+		A1BAF320DD00F71139A69D84598ED4E3 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		A5A1FF25B00C5325C01C7218EE334768 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B591DAC5366CBFE7355C55019342B122 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		C5DB6DE72AEAB3E8A5FC6EF18CB7828C /* EXTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTView.h; path = Pod/Classes/EXTView.h; sourceTree = "<group>"; };
+		C691456FC8F3CCFFF9A9F4C14C315EED /* EXTView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXTView-dummy.m"; sourceTree = "<group>"; };
+		C6F30ADC7FD71BE2BAE0655118223017 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
 		C764637D6A744AF7EBC3556FCAFB13AB /* Pods-onemodified.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onemodified.debug.xcconfig"; sourceTree = "<group>"; };
-		CAF3F8806F8D674726C8DE66067CB9CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E919B1A5F39713818C33E3A311EF7F35 /* BubbleTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-prefix.pch"; sourceTree = "<group>"; };
-		ED06AD6B4C60408133955DB8E24408F9 /* BubbleTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-umbrella.h"; sourceTree = "<group>"; };
-		F40AAC215A3CF698E51FE5778A3F3BC0 /* BubbleTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleTransition-dummy.m"; sourceTree = "<group>"; };
+		C7C339EC86113825DA345DB106B1C362 /* BubbleTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = Source/BubbleTransition.swift; sourceTree = "<group>"; };
+		D07FDC6D1F29049A4F7BDD91DC5857AF /* BubbleTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BubbleTransition.modulemap; sourceTree = "<group>"; };
+		D4B349176018162B9CE85725CABCA394 /* BubbleTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleTransition.xcconfig; sourceTree = "<group>"; };
+		EA98953BFF5A072C81A69737C8E02F64 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA31BBFA7EE5FD3876539D89A181501 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
 		F4CD78140FA545ADA7424ED3DDF66BA3 /* Pods-onemodified.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-onemodified.modulemap"; sourceTree = "<group>"; };
 		F7B637DE562C70AF63246E5FDFC02BBA /* Pods-onemodified.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onemodified.release.xcconfig"; sourceTree = "<group>"; };
+		FF4CB9BCE3E90EAAC8F66424489FA60C /* BubbleTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTransition-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B265BC8C033DAE7AA218D72E6E0A0C6 /* Frameworks */ = {
+		1C84B4228C6A6BBCBFC047A2D1DFE0DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750B7C83FE8AF21EB58290A5BE8B8DA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC333EC6DA658A6AB4DCE6F2C7918D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE65B55CABF0D04C0ADBC8C5D1626EB /* Foundation.framework in Frameworks */,
+				4EA1AC98467482022E2721C4C7C304C9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B33492BD9962A3EC4C6E3589E9E443A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49F3AB0D3360D2CFCB7338F28280E47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64BB93470B0B29D7FD7B86C34772C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF589FC01C2FD84218ABEF3A85E6B102 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,15 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FF1EB3B1E1CE212855AF965B6580E1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECABAF36772CA02F30588BCB38724C6A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A49903CC0175F18A1FE098EEE549E827 /* Foundation.framework in Frameworks */,
-				0A85CC10959CA5F0934EF0A421B4F18F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,14 +178,39 @@
 			path = "Target Support Files/Pods-onemodified";
 			sourceTree = "<group>";
 		};
-		23C7B10EDF00E7EA487A0C59454C0C96 /* SwiftyButton */ = {
+		1EBF31D2C217AB5057EC09195DB3C73C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				088EDC7CBF409B905299BA0C3CA6FF39 /* CustomPressableButton.swift */,
-				28A58406929070279CDE86C89D3A0226 /* FlatButton.swift */,
-				491F552F0DB5BF196ECD390A06FE1875 /* PressableButton.swift */,
-				1546573A770D945361171A25BEC75ED5 /* Utils.swift */,
-				8B38CB7CC083C48CA83DE37F1824F901 /* Support Files */,
+				839DF63E5D96495D171325558A6C80C7 /* EXTView.modulemap */,
+				82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */,
+				C691456FC8F3CCFFF9A9F4C14C315EED /* EXTView-dummy.m */,
+				937EFD1FD0468307CB3908CE277DC3B7 /* EXTView-prefix.pch */,
+				3CBBF906C8003547F67E25D1C67DD0AA /* EXTView-umbrella.h */,
+				A5A1FF25B00C5325C01C7218EE334768 /* Info.plist */,
+				07A1D7E51959A0C37CDCC78055FFB70D /* ResourceBundle-EXTView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EXTView";
+			sourceTree = "<group>";
+		};
+		23770FB09EB93B4634EEAB060FC65FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA6BB44E2072A9210765D21E726D9073 /* BubbleTransition */,
+				A37FFC5A4540AC3CA2BE4C03E0F8ED13 /* EXTView */,
+				35C4C11BDD67FFA53337A171C6542171 /* SwiftyButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35C4C11BDD67FFA53337A171C6542171 /* SwiftyButton */ = {
+			isa = PBXGroup;
+			children = (
+				EFA31BBFA7EE5FD3876539D89A181501 /* CustomPressableButton.swift */,
+				9E5BDC6B7AE6013B0A1C85D0AA1AAF74 /* FlatButton.swift */,
+				A1BAF320DD00F71139A69D84598ED4E3 /* PressableButton.swift */,
+				20AC95D42DFAFD4F04A74136183E594F /* Utils.swift */,
+				87E60FDD31511687FA11C6D3AB1B9528 /* Support Files */,
 			);
 			name = SwiftyButton;
 			path = SwiftyButton;
@@ -153,14 +224,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7C9A486D13045935E5C5717962F2D2C7 /* Products */ = {
+		64BE59025A5C834221BA87453BF826D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23BB558737DA1053314C621489DD565A /* BubbleTransition.framework */,
-				2CD80F9F1CA191DD18AF4FCCC8703079 /* Pods_onemodified.framework */,
-				9D44560E82FFFC92B94E56A9F8499775 /* SwiftyButton.framework */,
+				D07FDC6D1F29049A4F7BDD91DC5857AF /* BubbleTransition.modulemap */,
+				D4B349176018162B9CE85725CABCA394 /* BubbleTransition.xcconfig */,
+				A045715134E5A8350C431291B633B5E7 /* BubbleTransition-dummy.m */,
+				7CEEE0233ABBDF30D6F7C04156DF0E22 /* BubbleTransition-prefix.pch */,
+				FF4CB9BCE3E90EAAC8F66424489FA60C /* BubbleTransition-umbrella.h */,
+				79B1CD6C48F7EA274F7660836C1CCE61 /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/BubbleTransition";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -168,54 +243,42 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				A35ACA8B3C319E9A0E24BAD21DD48AF2 /* Pods */,
-				7C9A486D13045935E5C5717962F2D2C7 /* Products */,
+				23770FB09EB93B4634EEAB060FC65FDD /* Pods */,
+				FAABEA9E1DB32884F79D9320122B1492 /* Products */,
 				14E04BA658C65BABD9DAB4FC7AE7CC17 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B38CB7CC083C48CA83DE37F1824F901 /* Support Files */ = {
+		87E60FDD31511687FA11C6D3AB1B9528 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B417EDD9E19762292998578E4B281B17 /* Info.plist */,
-				2568D9A29CF6E2FFF6B467B2E8070F10 /* SwiftyButton.modulemap */,
-				6A991553C17EE33F704523468AB7C287 /* SwiftyButton.xcconfig */,
-				113EADC8836B7B0D556E99AC4DB398F9 /* SwiftyButton-dummy.m */,
-				739C980A75990563D14B64469E8E6002 /* SwiftyButton-prefix.pch */,
-				B315BC99EA578CABFB8A234ED8224454 /* SwiftyButton-umbrella.h */,
+				A0340710685075ED2028C43450B5E652 /* Info.plist */,
+				B591DAC5366CBFE7355C55019342B122 /* SwiftyButton.modulemap */,
+				73DBC421407EDE78F2C4ADE0C0E272A3 /* SwiftyButton.xcconfig */,
+				3FFB19CD027ACF90A793C85F454543AB /* SwiftyButton-dummy.m */,
+				77E06F8A8CDFE6E52042D686A872A807 /* SwiftyButton-prefix.pch */,
+				C6F30ADC7FD71BE2BAE0655118223017 /* SwiftyButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyButton";
 			sourceTree = "<group>";
 		};
-		A35ACA8B3C319E9A0E24BAD21DD48AF2 /* Pods */ = {
+		A37FFC5A4540AC3CA2BE4C03E0F8ED13 /* EXTView */ = {
 			isa = PBXGroup;
 			children = (
-				E05CCED6D15B10672E9ED3CAAA3A13E0 /* BubbleTransition */,
-				23C7B10EDF00E7EA487A0C59454C0C96 /* SwiftyButton */,
+				C5DB6DE72AEAB3E8A5FC6EF18CB7828C /* EXTView.h */,
+				A13393D05FE985FD7D2045C1A1C99C32 /* EXTView.m */,
+				1EBF31D2C217AB5057EC09195DB3C73C /* Support Files */,
 			);
-			name = Pods;
+			name = EXTView;
+			path = EXTView;
 			sourceTree = "<group>";
 		};
-		AC8C2AF244D603A167E22A671655F9D7 /* Support Files */ = {
+		CA6BB44E2072A9210765D21E726D9073 /* BubbleTransition */ = {
 			isa = PBXGroup;
 			children = (
-				B4EBE5DB095C0D68BA65E7056B4091A2 /* BubbleTransition.modulemap */,
-				3980039CC3058FCD391691ADA3A14467 /* BubbleTransition.xcconfig */,
-				F40AAC215A3CF698E51FE5778A3F3BC0 /* BubbleTransition-dummy.m */,
-				E919B1A5F39713818C33E3A311EF7F35 /* BubbleTransition-prefix.pch */,
-				ED06AD6B4C60408133955DB8E24408F9 /* BubbleTransition-umbrella.h */,
-				CAF3F8806F8D674726C8DE66067CB9CF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BubbleTransition";
-			sourceTree = "<group>";
-		};
-		E05CCED6D15B10672E9ED3CAAA3A13E0 /* BubbleTransition */ = {
-			isa = PBXGroup;
-			children = (
-				927F52062C54F423D30641CC95EC2F6E /* BubbleTransition.swift */,
-				AC8C2AF244D603A167E22A671655F9D7 /* Support Files */,
+				C7C339EC86113825DA345DB106B1C362 /* BubbleTransition.swift */,
+				64BE59025A5C834221BA87453BF826D6 /* Support Files */,
 			);
 			name = BubbleTransition;
 			path = BubbleTransition;
@@ -230,6 +293,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FAABEA9E1DB32884F79D9320122B1492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7841B63E8E81ADF4928C0432BEEB7FDC /* BubbleTransition.framework */,
+				1A8BA765A1D5DBA669711F6F5788884C /* EXTView.bundle */,
+				460BC6451FF2CE537402DB6FFB258DFF /* EXTView.framework */,
+				45EF85A7728A44B2573B84A8A450ADFA /* Pods_onemodified.framework */,
+				EA98953BFF5A072C81A69737C8E02F64 /* SwiftyButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -241,19 +316,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F64ED614315807F3C1DFA5812945590 /* Headers */ = {
+		1BC7C7FF369A4A198BBF8289E19B5814 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CBA6AA2516BBB01A060BD87C21EA58 /* Pods-onemodified-umbrella.h in Headers */,
+				E794AC0E4D86834B811F5B0DCB51E609 /* EXTView-umbrella.h in Headers */,
+				BA970B52D50446EA037AAA0613D7F596 /* EXTView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68ABE5600AD75FFF39B614B658F51C1B /* Headers */ = {
+		E1D4CE33B7FA3942B8B4D7ABBE7EE056 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FC24C9CA5FE799C7D0AB51E219EFFFF /* SwiftyButton-umbrella.h in Headers */,
+				FF9D103741FFFE66FD647EB1B002F460 /* SwiftyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3077EEADA0C6E669EBD23DF58EC109D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09F330F49BF4A97A266C7CEC1FE3AB9 /* Pods-onemodified-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,35 +358,55 @@
 			);
 			name = BubbleTransition;
 			productName = BubbleTransition;
-			productReference = 23BB558737DA1053314C621489DD565A /* BubbleTransition.framework */;
+			productReference = 7841B63E8E81ADF4928C0432BEEB7FDC /* BubbleTransition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5A123DE4D45E6B31B40F94FE75DDFDDA /* Pods-onemodified */ = {
+		679CA821226441CE26CAE89E3D2A1357 /* Pods-onemodified */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA428EFA29D2A157F0A776F5A00886B5 /* Build configuration list for PBXNativeTarget "Pods-onemodified" */;
+			buildConfigurationList = 356F177800ADF1B6EA26A147430CFC76 /* Build configuration list for PBXNativeTarget "Pods-onemodified" */;
 			buildPhases = (
-				9E01AF2D6D7048ABCFE29DAB261BEAFE /* Sources */,
-				9B265BC8C033DAE7AA218D72E6E0A0C6 /* Frameworks */,
-				1F64ED614315807F3C1DFA5812945590 /* Headers */,
+				EBC309409EEB6F417290F3A4432ACACC /* Sources */,
+				A64BB93470B0B29D7FD7B86C34772C35 /* Frameworks */,
+				F3077EEADA0C6E669EBD23DF58EC109D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D6C85F5036FD65390610F9711D422D9 /* PBXTargetDependency */,
-				6EEF89A9FCA0CC0EC92A09970DB02F56 /* PBXTargetDependency */,
+				F267E2733887829192B63185F6173EAD /* PBXTargetDependency */,
+				81454E8F6B343D5DE78DF9C7444631AB /* PBXTargetDependency */,
+				5F7F5B74358146690C6F83889B149B0F /* PBXTargetDependency */,
 			);
 			name = "Pods-onemodified";
 			productName = "Pods-onemodified";
-			productReference = 2CD80F9F1CA191DD18AF4FCCC8703079 /* Pods_onemodified.framework */;
+			productReference = 45EF85A7728A44B2573B84A8A450ADFA /* Pods_onemodified.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D46A79F6A76EF232C615E908C73DE4E /* SwiftyButton */ = {
+		6F5C43037FFAA0AA4A3A95952EA312EF /* EXTView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5E5C076693AF824666CE803442F8FE7 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildConfigurationList = 0EEA73117A69CE2C337BEC02863694F0 /* Build configuration list for PBXNativeTarget "EXTView" */;
 			buildPhases = (
-				F7A5EBF1EBA0B93D016E8A2A4929CCB1 /* Sources */,
-				ECABAF36772CA02F30588BCB38724C6A /* Frameworks */,
-				68ABE5600AD75FFF39B614B658F51C1B /* Headers */,
+				7D4FBEF9351E686C469903EAA91EC291 /* Sources */,
+				8B33492BD9962A3EC4C6E3589E9E443A /* Frameworks */,
+				CBACE84E0353E54D43B25383D8850F13 /* Resources */,
+				1BC7C7FF369A4A198BBF8289E19B5814 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533A9B3FC6BFBDA3337241075D11C888 /* PBXTargetDependency */,
+			);
+			name = EXTView;
+			productName = EXTView;
+			productReference = 460BC6451FF2CE537402DB6FFB258DFF /* EXTView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE927F45DB8DD582B06B0B24430848FB /* SwiftyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9178C75BCDB87478908EAC4577A167FE /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildPhases = (
+				BE4E09ABAF8FB4EFBD3614E46153FC77 /* Sources */,
+				5CC333EC6DA658A6AB4DCE6F2C7918D4 /* Frameworks */,
+				E1D4CE33B7FA3942B8B4D7ABBE7EE056 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,8 +414,25 @@
 			);
 			name = SwiftyButton;
 			productName = SwiftyButton;
-			productReference = 9D44560E82FFFC92B94E56A9F8499775 /* SwiftyButton.framework */;
+			productReference = EA98953BFF5A072C81A69737C8E02F64 /* SwiftyButton.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		EE5ABCF3C1DAA65AE3297D0A0FB3AEA5 /* EXTView-EXTView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0EA13D80CFED9326DBFBA239EED568 /* Build configuration list for PBXNativeTarget "EXTView-EXTView" */;
+			buildPhases = (
+				F82D5909F44BE3EE6DD6C6D43F011A06 /* Sources */,
+				1C84B4228C6A6BBCBFC047A2D1DFE0DD /* Frameworks */,
+				2B194B5CA597FC4530FC39376E439708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EXTView-EXTView";
+			productName = "EXTView-EXTView";
+			productReference = 1A8BA765A1D5DBA669711F6F5788884C /* EXTView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -330,23 +451,56 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7C9A486D13045935E5C5717962F2D2C7 /* Products */;
+			productRefGroup = FAABEA9E1DB32884F79D9320122B1492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				38830187D9E171E7B43047ED06A08ADC /* BubbleTransition */,
-				5A123DE4D45E6B31B40F94FE75DDFDDA /* Pods-onemodified */,
-				9D46A79F6A76EF232C615E908C73DE4E /* SwiftyButton */,
+				6F5C43037FFAA0AA4A3A95952EA312EF /* EXTView */,
+				EE5ABCF3C1DAA65AE3297D0A0FB3AEA5 /* EXTView-EXTView */,
+				679CA821226441CE26CAE89E3D2A1357 /* Pods-onemodified */,
+				BE927F45DB8DD582B06B0B24430848FB /* SwiftyButton */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2B194B5CA597FC4530FC39376E439708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBACE84E0353E54D43B25383D8850F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EA7AB1ADF1F75CDA8E87DE03663E6F /* EXTView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9E01AF2D6D7048ABCFE29DAB261BEAFE /* Sources */ = {
+		7D4FBEF9351E686C469903EAA91EC291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8758AFED7B3DE300ACCA44F2C70789 /* Pods-onemodified-dummy.m in Sources */,
+				B96D1487156CDDA98F62B2040FF7F312 /* EXTView-dummy.m in Sources */,
+				250F615986104E6F830C3AA8F8822167 /* EXTView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4E09ABAF8FB4EFBD3614E46153FC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D53AEE153380B0E93625156B53F67F8 /* CustomPressableButton.swift in Sources */,
+				556C1381FD306C2E7930A3FE109EEF33 /* FlatButton.swift in Sources */,
+				ABD37FBE857E5AB0248A9D81578A5726 /* PressableButton.swift in Sources */,
+				5D184253C63CC33C202A6EABAB2CE6B9 /* SwiftyButton-dummy.m in Sources */,
+				6E1475CF5566DF6911198BDE8D904C25 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,39 +513,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A5EBF1EBA0B93D016E8A2A4929CCB1 /* Sources */ = {
+		EBC309409EEB6F417290F3A4432ACACC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C5098404CD573F90A0494606DA22CEE /* CustomPressableButton.swift in Sources */,
-				B0F14493094AE8727AE1F0B90E9A6D8D /* FlatButton.swift in Sources */,
-				77918A4124A472CCFEBF0D4DEA89DD22 /* PressableButton.swift in Sources */,
-				28B30EEBC04D94D82221192738294892 /* SwiftyButton-dummy.m in Sources */,
-				0BC145AA6184EF280FBAF3D29D00F73E /* Utils.swift in Sources */,
+				135A4BF47036D127F035C2E3A149C812 /* Pods-onemodified-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82D5909F44BE3EE6DD6C6D43F011A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D6C85F5036FD65390610F9711D422D9 /* PBXTargetDependency */ = {
+		533A9B3FC6BFBDA3337241075D11C888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EXTView-EXTView";
+			target = EE5ABCF3C1DAA65AE3297D0A0FB3AEA5 /* EXTView-EXTView */;
+			targetProxy = 67BCA5E6D4818433A47068295064A091 /* PBXContainerItemProxy */;
+		};
+		5F7F5B74358146690C6F83889B149B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyButton;
+			target = BE927F45DB8DD582B06B0B24430848FB /* SwiftyButton */;
+			targetProxy = 60492D65C8FF5FA7892E3A9F5E9B04D8 /* PBXContainerItemProxy */;
+		};
+		81454E8F6B343D5DE78DF9C7444631AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EXTView;
+			target = 6F5C43037FFAA0AA4A3A95952EA312EF /* EXTView */;
+			targetProxy = 500F115F0D7CA39353768680955ACE45 /* PBXContainerItemProxy */;
+		};
+		F267E2733887829192B63185F6173EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BubbleTransition;
 			target = 38830187D9E171E7B43047ED06A08ADC /* BubbleTransition */;
-			targetProxy = F8F9279354B43A93B1B94D9EB78A02E1 /* PBXContainerItemProxy */;
-		};
-		6EEF89A9FCA0CC0EC92A09970DB02F56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyButton;
-			target = 9D46A79F6A76EF232C615E908C73DE4E /* SwiftyButton */;
-			targetProxy = E4BC578D9C9F1DC9DF05B5E1A04A243F /* PBXContainerItemProxy */;
+			targetProxy = 4A60C0F43EFB8D440CE804C8F28E1778 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5F0595E3406B99CF102CA4F49C41C7AD /* Debug */ = {
+		30572E54F3D1405356580B9429359877 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A991553C17EE33F704523468AB7C287 /* SwiftyButton.xcconfig */;
+			baseConfigurationReference = 82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -404,23 +573,54 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EXTView/EXTView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXTView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/EXTView/EXTView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyButton;
+				PRODUCT_NAME = EXTView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4237D526FCB0BE9A95B17EAA674C69E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EXTView/EXTView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXTView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EXTView/EXTView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EXTView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		673254EEAF0B5BF4596080C749645884 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -464,7 +664,7 @@
 		};
 		6DEC4975496651C239470289C8EEC7E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3980039CC3058FCD391691ADA3A14467 /* BubbleTransition.xcconfig */;
+			baseConfigurationReference = D4B349176018162B9CE85725CABCA394 /* BubbleTransition.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,7 +694,109 @@
 			};
 			name = Release;
 		};
-		99B31EA8F1BB8087667561E809C29D22 /* Release */ = {
+		6E24B0EBB29629C190D9551304BA75DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C764637D6A744AF7EBC3556FCAFB13AB /* Pods-onemodified.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-onemodified/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-onemodified/Pods-onemodified.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_onemodified;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9767E27BC58EDF2C81678FC6BB6F742C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DBC421407EDE78F2C4ADE0C0E272A3 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0DACEB93C05D9D35989258B7DF17E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B349176018162B9CE85725CABCA394 /* BubbleTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTransition/BubbleTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTransition/BubbleTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BubbleTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6FCD68624967653031CAFE687FFF102 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7B637DE562C70AF63246E5FDFC02BBA /* Pods-onemodified.release.xcconfig */;
 			buildSettings = {
@@ -529,42 +831,9 @@
 			};
 			name = Release;
 		};
-		A0DACEB93C05D9D35989258B7DF17E79 /* Debug */ = {
+		A7EB9FDB2E4C14389217DE224B84B532 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3980039CC3058FCD391691ADA3A14467 /* BubbleTransition.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleTransition/BubbleTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleTransition/BubbleTransition.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BubbleTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3511081875F03761512CF5A4DB0C080 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A991553C17EE33F704523468AB7C287 /* SwiftyButton.xcconfig */;
+			baseConfigurationReference = 73DBC421407EDE78F2C4ADE0C0E272A3 /* SwiftyButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -594,39 +863,20 @@
 			};
 			name = Release;
 		};
-		DDCD15DC090BEDBE03ED52A68717F455 /* Debug */ = {
+		E21F22DB94A68962F25E25AA3DB484BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C764637D6A744AF7EBC3556FCAFB13AB /* Pods-onemodified.debug.xcconfig */;
+			baseConfigurationReference = 82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EXTView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-onemodified/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-onemodified/Pods-onemodified.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_onemodified;
+				INFOPLIST_FILE = "Target Support Files/EXTView/ResourceBundle-EXTView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EXTView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -674,14 +924,49 @@
 			};
 			name = Debug;
 		};
+		F54E0A1325358E3601870A925BE7940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D5C5D6B40FABE5E86757D718B1051A /* EXTView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EXTView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EXTView/ResourceBundle-EXTView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EXTView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0EEA73117A69CE2C337BEC02863694F0 /* Build configuration list for PBXNativeTarget "EXTView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30572E54F3D1405356580B9429359877 /* Debug */,
+				4237D526FCB0BE9A95B17EAA674C69E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
 				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356F177800ADF1B6EA26A147430CFC76 /* Build configuration list for PBXNativeTarget "Pods-onemodified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E24B0EBB29629C190D9551304BA75DE /* Debug */,
+				A6FCD68624967653031CAFE687FFF102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -695,20 +980,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA428EFA29D2A157F0A776F5A00886B5 /* Build configuration list for PBXNativeTarget "Pods-onemodified" */ = {
+		9178C75BCDB87478908EAC4577A167FE /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDCD15DC090BEDBE03ED52A68717F455 /* Debug */,
-				99B31EA8F1BB8087667561E809C29D22 /* Release */,
+				9767E27BC58EDF2C81678FC6BB6F742C /* Debug */,
+				A7EB9FDB2E4C14389217DE224B84B532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5E5C076693AF824666CE803442F8FE7 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+		AA0EA13D80CFED9326DBFBA239EED568 /* Build configuration list for PBXNativeTarget "EXTView-EXTView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F0595E3406B99CF102CA4F49C41C7AD /* Debug */,
-				D3511081875F03761512CF5A4DB0C080 /* Release */,
+				E21F22DB94A68962F25E25AA3DB484BE /* Debug */,
+				F54E0A1325358E3601870A925BE7940A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
